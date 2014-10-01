@@ -4,10 +4,10 @@ rm *.class
 rm nohup.out
 
 rm imageio/images_1px/1_PIXEL_*.jpg
-for i in {1..10}
-do
-    cp imageio/images_1px/1_PIXEL.jpg imageio/images_1px/1_PIXEL_$i.jpg
-done
+#for i in {1..10}
+#do
+#    cp imageio/images_1px/1_PIXEL.jpg imageio/images_1px/1_PIXEL_$i.jpg
+#done
 
 javac App.java
 

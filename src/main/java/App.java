@@ -30,6 +30,8 @@ public class App {
                                 is.close();
                             } catch (Exception e) {
                                 e.printStackTrace();
+                                System.out.println(e.getCause());
+                                System.out.println(e.toString());
                             }
                         }
                     }
